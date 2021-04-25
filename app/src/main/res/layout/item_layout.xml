@@ -30,7 +30,8 @@
             android:layout_alignTop="@id/iv_image"
             android:layout_alignBottom="@id/iv_image"
             android:layout_toEndOf="@id/iv_image"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/iv_image">
 
 
             <TextView
@@ -40,7 +41,8 @@
                 android:layout_marginStart="10dp"
                 android:text="Title"
                 android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp" />
 
             <TextView
                 android:id="@+id/tv_description"
@@ -49,7 +51,8 @@
                 android:layout_marginStart="10dp"
                 android:text="This is a description"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp" />
         </LinearLayout>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
